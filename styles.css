@@ -1,0 +1,48 @@
+/* Define font family */
+body{
+    font-family: 'Montserrat Alternates', 'Verdana', sans-serif;
+    font-size: 14px;
+}
+
+/* Resize all images square */
+.img-resize {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#cover-img {
+    object-position: 0% 40%;
+}
+
+#carrot-img {
+    object-position: 0% 70%;
+}
+
+#cheese-img {
+    object-position: 0% 10%;
+}
+
+/* Center images */
+.img-pos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HOME PAGE */
+.home-uc {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.center-title {
+    text-align: center;
+}
+
+.home-ls {
+    list-style-type: "➤";
+    text-indent: 8px;
+    position: relative;
+    left: -24px;
+}
